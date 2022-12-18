@@ -1,0 +1,9 @@
+name: conda-tutorial
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+    - python=3.8
+    - pandas=1.4.2
