@@ -9,7 +9,7 @@ This article leaves on:
 Photo by Max Duzij from Unsplash
 
 
-All of the code for this tutorial can be found [here](https://github.com/armandsauzay/blog-posts).
+All of the code for this tutorial can be found [here](https://github.com/armand-sauzay/blog-posts/tree/main/command-line-101-a-basic-guide-to-using-the-terminal/code).
 
 ---
 
