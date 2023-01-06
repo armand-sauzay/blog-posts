@@ -7,7 +7,7 @@
 
 ---
 
-All of the code for this tutorial can be found [here](https://github.com/armand-sauzay/best-practices/tree/main/tutorials/conda_environment).
+All of the code for this tutorial can be found [here](https://github.com/armand-sauzay/blog-posts/tree/main/using-conda-environments-for-python-all-you-need-to-know/code).
 
 ---
 
