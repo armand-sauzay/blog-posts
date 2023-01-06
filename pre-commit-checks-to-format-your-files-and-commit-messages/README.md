@@ -69,7 +69,7 @@ Once you added those files, you can try adding a commit, the pre commit checks d
 - yaml files are correctly formatted
 - files have an extra empty line at the end (this is considered best practice as some systems fail when this condition is not met)
 - get rid of trailing whitespaces
-- make sure that the commits follow the [conventinal commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
+- make sure that the commits follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
 
 To see if this worked, try to commit those files to your repo with some commit message like
 git commit -m 'feat: enabled pre-commit checks'
