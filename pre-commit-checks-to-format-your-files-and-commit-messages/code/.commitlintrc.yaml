@@ -1,0 +1,4 @@
+extends:
+  - "@open-turo/commitlint-config-conventional"
+# extends:
+#   - "@commitlint/commitlint-config-conventional"
