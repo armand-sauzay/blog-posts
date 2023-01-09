@@ -1,0 +1,5 @@
+db:
+  driver: mysql
+  table: bar
+  user: bar
+  password: foo

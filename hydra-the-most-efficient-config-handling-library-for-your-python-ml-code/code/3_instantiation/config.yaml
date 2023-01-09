@@ -1,0 +1,14 @@
+model:
+  feature_extractor:
+    _target_: sklearn.ensemble.GradientBoostingClassifier
+    random_state: 0
+    n_estimators: 500
+    learning_rate: 0.01
+    max_depth: 2
+
+bar:
+  a: 1
+  b: 2
+
+foo:
+  a: ${bar.a}

@@ -1,0 +1,7 @@
+defaults:
+  - dataloader: local
+  - _self_
+
+
+dataloader:
+  type: foo

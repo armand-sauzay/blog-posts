@@ -1,0 +1,3 @@
+type: read_local
+local_path: /path/to/file
+timeout: 10
