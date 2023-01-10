@@ -151,7 +151,7 @@ foo:
   a: ${bar.a}
 ```
 
-In the yaml, you need to pass a `_target_` (note that this name is a convention so dont modify it or you wont be able to instantiate your object) as the first line of the object we want to instantiate. Following lines are parameters for the object we wish to instantiate. For instance, here, `instantiate(cfg.model.feature_extractor)` will lead to ```sklearn.ensemble.GradientBoostingClassifier(random_state=0, n_estimators-500, learning_rate: 0.0, max_depth: 2)```. Pretty cool right?
+In the yaml, you need to pass a `_target_` (note that this name is a convention so dont modify it or you wont be able to instantiate your object) as the first line of the object we want to instantiate. Following lines are parameters for the object we wish to instantiate. For instance, here, `instantiate(cfg.model.feature_extractor)` will lead to `sklearn.ensemble.GradientBoostingClassifier(random_state=0, n_estimators=500, learning_rate=0.0, max_depth=2)`. Pretty cool right?
 
 --- 
 
