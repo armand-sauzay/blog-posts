@@ -1,7 +1,7 @@
 # Command Line 101
 Get started using your terminal and get one step closer to being an experienced developer.
 
-This article leaves on: 
+This article lives on: 
 - [Meduim](https://medium.com/@armand-sauzay/a-simple-guide-to-using-the-command-line-aka-terminal-e030dbf18afe)
 - [Dev.to](https://dev.to/armandsauzay/command-line-101-a-basic-guide-to-using-the-terminal-4alo)
 
