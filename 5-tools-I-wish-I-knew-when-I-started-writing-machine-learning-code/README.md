@@ -2,7 +2,7 @@
 
 This article lives on: 
 - [Meduim](https://medium.com/@armand-sauzay/5-tools-i-wish-i-knew-when-i-started-writing-machine-learning-code-55b429d06f32)
-- [Dev.to]()
+- [Dev.to](https://dev.to/armandsauzay/5-tools-i-wish-i-knew-when-i-started-writing-machine-learning-code-575f)
 --- 
 A few tools that will get you on the right track for your Machine Learning projects using python.
 
