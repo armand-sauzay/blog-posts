@@ -1,3 +1,7 @@
+This article lives on: 
+- [Meduim](https://medium.com/@armand-sauzay/shap-values-machine-learning-interpretability-and-feature-selection-made-easy-feb8765f815b)
+- [Dev.to](https://dev.to/armandsauzay/shap-values-machine-learning-interpretability-and-feature-selection-made-easy-396k)
+
 # SHAP values: Machine Learning interpretability and feature selection made easy.
 Machine learning interpretability with hands on code with SHAP.
 
