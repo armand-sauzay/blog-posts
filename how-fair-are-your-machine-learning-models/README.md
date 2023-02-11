@@ -21,9 +21,10 @@ One key thing to understand is that what is judged "fair" is sometimes not even 
 
 Now that we have a bit of context on the problem, let's get into the math (Section 1) and the code (Sections 2 and 3)to be able to evaluate and address unfairness issues:
 
-1. The Mathematical Concepts Behind Fairness
+1.  A few fairness concepts
 2. Evaluating Data Biases
 3. Evaluating and Correcting Model Biases with Fairlearn   
+    
     a. Evaluating bias 
 
     b. Correcting bias
@@ -34,7 +35,8 @@ All the code for this tutorial can be found on Kaggle [here](https://www.kaggle.
 
 ---
 
-## 1. The Mathematical Concepts Behind Fairness
+## 1. A few fairness concepts
+### 1.1. Mathematical definition of fairness 
 In order to simplify things, we'll restrict the scope to binary classification (predict whether someone should be paid more than 50K/year).
 Usually, we'll call:
 - X: the feature matrix
@@ -47,13 +49,13 @@ For __binary classification__, two main definition of fairness exist:
 
 > NOTE: a third one exists but is more rarely used: __equal opportunity__ is a relaxed version of equalized odds that only considers conditional expectations with respect to positive labels.
 
----
+### 1.2. Fairness in words
 
 In "simpler words":
 - __Demographic parity__: the prediction should be independent from the sensitive features (for instance independent from gender). It states that all categories from the protected feature should receive the positive outcome at the same rate (it plays on selection rate)
 - __Equalized odds__: the prediction can be correlated to the sensitive feature, to the extent it is explained by the data we see
 
----
+### 1.3. Why does it matter?
 
 > OK, that's interesting, but why does it matter? And how can I use those mathematical concepts?
 
@@ -66,7 +68,7 @@ Without further due, let's get into the implementation details on how we can eva
 ## 2. Evaluating Data Biases
 _NOTE: once again, you can find all the associated code [here](https://www.kaggle.com/code/armandsauzay/a-primer-on-fairness-with-fairlearn)._ 
 
-Biases can exist in the data itself. Let's just load the data and plot a few different plots:
+Biases can exist in the data itself. Let's just load the data and plot the percentage of Male/Female having a salary above 50K.
 
 
 <p><img src="https://miro.medium.com/max/1106/1*dMFb4gM4LjtQ5TC52fBTVA.webp" width="400" height="400" /> <img src="https://miro.medium.com/max/896/1*d5GJ2Z7Yz3uom5ANr96yGQ.webp" width="400" height="400" /> </p>
@@ -153,8 +155,6 @@ By mitigating the model we introduced demographic parity (and thus equal selecti
 ---
 
 Woohoo! You now know the basics of fairness works and how you can start using it right away in your machine learning projects!
-
----
 
 I hope you liked this article! Let me know if you have any questions or suggestions. Also feel free to contact me on LinkedIn, GitHub or Twitter, or checkout some other articles I wrote on DS/ML best practices. Happy learning!
 
