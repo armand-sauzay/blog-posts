@@ -2,6 +2,10 @@
 
 A quick introduction to the topic of fairness with hands on coding. Evaluate your machine learning model fairness in just a few lines of code.
 
+This article lives on: 
+- [Medium](https://armand-sauzay.medium.com/a-primer-on-machine-learning-fairness-using-fairlearn-8c00f92015dc)
+- [Dev.to](https://dev.to/armandsauzay/machine-learning-interpretability-and-feature-selection-made-easy-with-shap-450c)
+
 ![Photo by Wesley Tingey on Unsplash](https://miro.medium.com/max/1400/1*MZWIZHRWNqGkyoC_MKT-OA.webp)
 <p align="center"> Photo by Wesley Tingey on Unsplash </p>
 
