@@ -1,3 +1,7 @@
+This article was published on: 
+- [Medium](https://medium.com/@armand-sauzay/introduction-to-cryptography-understanding-hashing-and-public-key-encryption-with-code-examples-dbc845a24ac4)
+- [Dev.to](https://dev.to/armandsauzay/introduction-to-cryptography-understanding-hashing-and-public-key-encryption-with-code-examples-4fdl)
+
 # Introduction to Cryptography: Understanding Hashing and Public-key Encryption with Code Examples
 
 What's cryptography? What does hashing and public-key encryption mean? And which tool can you use to start writing cryptography code?
