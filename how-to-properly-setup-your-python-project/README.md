@@ -1,5 +1,9 @@
 # How to properly setup your Python project
 
+This article is published on: 
+- [Medium](https://medium.com/@armand-sauzay/how-to-properly-setup-your-python-project-c81f7036b766)
+- [Devto](https://dev.to/armandsauzay/how-to-properly-setup-your-python-project-3fng)
+
 Industry best practices to kickstart your python project.
 ![How to properly setup your Python project](images/front-david-clode.jpeg)
 <p align="center">Photo by David Clode on Unsplash</p>
